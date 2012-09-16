@@ -20,7 +20,7 @@ textarea {
 
 body {
     font-size: 0.65%;
-    line-height: 1.4;
+    line-height: 1;
 }
 
 /*
@@ -98,11 +98,15 @@ textarea {
 }
 body {
   background: url("../img/bg.jpg") top center no-repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+section strong {
+  color: #ffba00
 }
 header {
   height: 352px
@@ -155,7 +159,46 @@ hgroup h2 strong {
   clear: both
 }
 
+#speakers {
+  overflow: hidden;
+  margin-top: -70px
+}
+#speakers li {
+  width: 21%;
+  margin: 0 2% 110px;
+  float: left;
+  text-align: center
+}
+#speakers li h3 {
+  font-size: 17px;
+  color: #3f4f69;
+  margin: 10px 0 6px;
+  line-height: 1;
+}
+#speakers li strong {
+  font-size: 16px
+}
+#speakers li img {
+  padding: 10px;
+  background-color: #FFF;
+  border:1px solid #cad2d8;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-box-shadow: 1px 1px 0 0 #A9B8C3;
+  box-shadow: 1px 1px 0px 0 #A9B8C3;
+}
 
+#highlight-text {
+  background-color: #3f4f69
+}
+#highlight-text p {
+  font-size: 36px;
+  line-height: 120%;
+  color: #FFF;
+  text-align: center;
+  padding: 75px 0;
+}
 
 
 
