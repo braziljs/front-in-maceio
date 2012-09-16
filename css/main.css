@@ -19,7 +19,7 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    font-size: 0.65%;
     line-height: 1.4;
 }
 
@@ -92,15 +92,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.container {
+  width: 960px;
+  margin: 0 auto
+}
+body {
+  background: url("../img/bg.jpg") top center no-repeat;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header {
+  height: 352px
+}
+.logo {
+  float: :left;
+  margin: 38px 0 0 58px
+}
+hgroup h1 {
+  margin: 0;
+  float: left;
+}
+hgroup h2 {
+  background-color: rgba(40,52,72,.9);
+  position: absolute;
+  right: 0;
+  top:32px;
+  float: right;
+  font:bold 19px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f7f5cf;
+  font-style: italic;
+  font-weight:normal;
+  width: 303px;
+  margin: 0;
+  padding: 20px 26px;
+}
+hgroup h2 strong {
+  display: block;
+  color: #FFF;
+  font-size: 34px;
+}
 
+.social-media {
+  float: right;
+  margin: 60px 260px 0 0;
+}
+.social-media a {
+  background: url("../img/icons/social-media.png") 0 0 no-repeat;
+  float: left;
+  width: 38px;
+  height: 36px;
+  text-indent: -9999em;
+  float: left;
+}
+.social-media a.twitter {
+  background-position: -38px 0
+  }
 
-
-
-
-
-
-
-
+.main {
+  clear: both
+}
 
 
 
