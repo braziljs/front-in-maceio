@@ -97,7 +97,7 @@ textarea {
   margin: 0 auto
 }
 body {
-  background: url("../img/bg.jpg") top center no-repeat;
+  background: url("../img/bg.jpg") center -30px no-repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul {
@@ -109,8 +109,7 @@ section strong {
   color: #ffba00
 }
 header {
-  height: 352px
-}
+  height: 322px;}
 .logo {
   float: :left;
   margin: 38px 0 0 58px
@@ -166,7 +165,7 @@ hgroup h2 strong {
 }
 #speakers li {
   width: 21%;
-  margin: 0 2% 110px;
+  margin: 0 2% 80px;
   float: left;
   text-align: center
 }
@@ -190,9 +189,68 @@ hgroup h2 strong {
   box-shadow: 1px 1px 0px 0 #A9B8C3;
 }
 
+#enrollment {
+  width: 260px;
+  margin: 0 auto;
+  padding-left: 16px;
+}
+.price-range {
+  color: #b1b7c2;
+  font-weight: bold;
+  font-size: 15px;
+}
+.price-range big {
+  font-size: 22px;
+  color: #3f4f69;
+  display: block;
+}
+.price-range li {
+  float: left;
+  padding: 0 15px 3px;
+  margin-bottom: 15px
+}
+.price-range li+li {
+  border-left: 1px solid #cad2d8
+}
+
+#enrollment .btn {
+  width: 240px;
+  padding: 12px 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e19028 #c67a18 #a35d04 #c07515;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 1px 1px 2px #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px 0 #2C3953;
+  box-shadow: 0 1px 2px 0 #2C3953;
+  box-shadow: 0px 1px 2px 0px #2C3953;
+  background: #e5a812;
+  background: -moz-linear-gradient(top,  #e5a812 0%, #b76e11 61%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5a812), color-stop(61%,#b76e11));
+  background: -webkit-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
+  background: -o-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
+  background: -ms-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
+  background: linear-gradient(to bottom,  #e5a812 0%,#b76e11 61%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5a812', endColorstr='#b76e11',GradientType=0 );
+
+}
+#enrollment .btn big {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 #highlight-text {
   background-color: #3f4f69;
-  margin-bottom: 80px;
+  margin: -32px 0 80px;
 }
 #highlight-text p {
   font-size: 36px;
