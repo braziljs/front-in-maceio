@@ -178,7 +178,8 @@ hgroup h2 strong {
 }
 #speakers li {
   width: 21%;
-  margin: 0 2% 80px;
+  margin: 0 1% 80px;
+  min-height: 195px;
   float: left;
   text-align: center
 }
