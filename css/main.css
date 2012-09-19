@@ -154,6 +154,9 @@ hgroup h2 strong {
 .social-media a.twitter {
   background-position: -38px 0
 }
+.social-media a.mail {
+  background-position: -76px 0
+}
 
 .share {
   position: absolute;
@@ -180,7 +183,7 @@ hgroup h2 strong {
   text-align: center
 }
 #speakers li h3 {
-  font-size: 17px;
+  font-size: 19px;
   color: #3f4f69;
   margin: 10px 0 6px;
   line-height: 1;
@@ -197,6 +200,9 @@ hgroup h2 strong {
   border-radius: 100px;
   -webkit-box-shadow: 1px 1px 0 0 #A9B8C3;
   box-shadow: 1px 1px 0px 0 #A9B8C3;
+}
+#speakers .undefined h3 {
+  color: #b0b7c2;
 }
 
 #enrollment {
@@ -268,6 +274,7 @@ hgroup h2 strong {
   text-align: center;
   font-weight: 100;
   padding: 75px 0;
+  margin: 0;
 }
 #highlight-text strong {
   color: #fff;
