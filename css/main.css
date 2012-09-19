@@ -234,22 +234,21 @@ hgroup h2 strong {
   text-align: center;
   text-decoration: none;
   color: #FFF;
-  text-shadow: 1px 1px 2px #000;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 1px 2px 0 #2C3953;
-  box-shadow: 0 1px 2px 0 #2C3953;
-  box-shadow: 0px 1px 2px 0px #2C3953;
+  text-shadow: 0 1px 2px #785b02;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px 0 #2C3953, inset 0px 2px 5px 0px #f4ca73;
+  box-shadow: 0 1px 2px 0 #2C3953, inset 0px 2px 5px 0px #f4ca73;
+  box-shadow: 0px 1px 2px 0px #2C3953, inset 0px 2px 5px 0px #f4ca73;
   background: #e5a812;
-  background: -moz-linear-gradient(top,  #e5a812 0%, #b76e11 61%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5a812), color-stop(61%,#b76e11));
-  background: -webkit-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
-  background: -o-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
-  background: -ms-linear-gradient(top,  #e5a812 0%,#b76e11 61%);
-  background: linear-gradient(to bottom,  #e5a812 0%,#b76e11 61%);
+  background: -moz-linear-gradient(top,  #e5a812 40%, #b76e11 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#e5a812), color-stop(100%,#b76e11));
+  background: -webkit-linear-gradient(top,  #e5a812 40%,#b76e11 100%);
+  background: -o-linear-gradient(top,  #e5a812 40%,#b76e11 100%);
+  background: -ms-linear-gradient(top,  #e5a812 40%,#b76e11 100%);
+  background: linear-gradient(to bottom,  #e5a812 40%,#b76e11 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5a812', endColorstr='#b76e11',GradientType=0 );
-
 }
 #enrollment .btn big {
   display: block;
@@ -267,7 +266,11 @@ hgroup h2 strong {
   line-height: 120%;
   color: #FFF;
   text-align: center;
+  font-weight: 100;
   padding: 75px 0;
+}
+#highlight-text strong {
+  color: #fff;
 }
 
 
