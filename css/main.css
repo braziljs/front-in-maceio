@@ -205,6 +205,17 @@ hgroup h2 strong {
 #speakers .undefined h3 {
   color: #b0b7c2;
 }
+.popover {
+  -webkit-border-radius:0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.popover .arrow {
+  display: none;
+}
+.popover-content p {
+  font-size: 12px
+}
 
 #enrollment {
   width: 260px;

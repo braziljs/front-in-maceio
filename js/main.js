@@ -4,3 +4,5 @@ $('a[rel="external"]').click( function() {
 });
 
 $("#speakers ul li").shuffle();
+
+$("*[rel=popover]").popover();
