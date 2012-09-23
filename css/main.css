@@ -349,6 +349,11 @@ hgroup h2 strong {
   font-size: 26px;
   display: block
 }
+.venue {
+  color: #b1b7c2;
+  font-weight: bold;
+  font-size: 15px;
+}
 
 /* ==========================================================================
    Helper classes
