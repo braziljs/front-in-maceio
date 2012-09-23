@@ -306,7 +306,7 @@ hgroup h2 strong {
 }
 #footer section li {
   float: left;
-  margin-right: 36px
+  margin-right: 35px
 }
 #supporters {
   width: 782px;
@@ -353,6 +353,16 @@ hgroup h2 strong {
   color: #b1b7c2;
   font-weight: bold;
   font-size: 15px;
+  clear:both;
+  padding-top: 20px
+}
+.venue a {
+  font-size: 12px;
+  color: #b1b7c2;
+}
+.venue .name {
+  font-weight: bold;
+  color: #818b9d
 }
 
 /* ==========================================================================
