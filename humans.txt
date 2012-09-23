@@ -1,13 +1,16 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
+# The humans responsible
 
 # TEAM
 
-    Juarez P. A. Filho -- Front-end Developer -- @juarezpaf
-    Filipe Guth -- Web Designer -- @fguth
-    Davidson Fellipe -- Content Strategist -- @davidsonFellipe
+  Davidson Fellipe
+  Site: https://github.com/davidsonfellipe
+  Location: Rio de Janeiro, Brazil
 
-# TECHNOLOGY COLOPHON
+  Filipe Guth
+  Site: https://github.com/fguth
+  Location: Novo Hamburgo, Brazil
 
-    HTML5, CSS3
-    jQuery, Modernizr
+  Juarez P. A. Filho
+  Site: https://github.com/juarezpaf
+  Location: Maceio, Brazil
