@@ -370,6 +370,11 @@ hgroup h2 strong {
   width: 115px;
   float: right;
 }
+
+#sponsors {
+  clear: both;
+  padding-top: 25px;
+}
 .we-need-sponsors {
   background: #ffffff;
   background: -moz-linear-gradient(top,  #ffffff 0%, #eceff1 100%);
@@ -394,7 +399,7 @@ hgroup h2 strong {
   padding: 12px 0 8px;
   text-decoration: none;
   position: relative;
-  top: -8px;
+  top: 0;
 }
 .we-need-sponsors big {
   font-size: 26px;
@@ -405,8 +410,7 @@ hgroup h2 strong {
   font-weight: bold;
   font-size: 15px;
   clear:both;
-  padding-top: 20px
-}
+  padding-top: 25px;}
 .venue a {
   font-size: 12px;
   color: #b1b7c2;
