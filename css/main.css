@@ -19,7 +19,7 @@ textarea {
 }
 
 body {
-    font-size: 0.65%;
+    /*font-size: 0.65%;*/
     line-height: 1;
 }
 
@@ -137,7 +137,6 @@ hgroup h2 strong {
   color: #FFF;
   font-size: 34px;
 }
-
 .social-media {
   position: absolute;
   top: 60px;
@@ -192,7 +191,8 @@ hgroup h2 strong {
 #speakers li strong {
   font-size: 16px
 }
-#speakers li img {
+#speakers li img,
+.picture {
   padding: 10px;
   background-color: #FFF;
   border:1px solid #cad2d8;
@@ -202,6 +202,10 @@ hgroup h2 strong {
   -webkit-box-shadow: 1px 1px 0 0 #A9B8C3;
   box-shadow: 1px 1px 0px 0 #A9B8C3;
 }
+/*#speakers li img:hover {
+  cursor: pointer;
+}
+*/
 #speakers .undefined h3 {
   color: #b0b7c2;
 }
@@ -291,8 +295,46 @@ hgroup h2 strong {
 #highlight-text strong {
   color: #fff;
 }
-
-
+/* talks */
+.talks {
+  margin-bottom: 20px;
+}
+.talks .title {
+  margin: 0 0 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cbd4d6;
+  font-size: 18px;
+  color: #3f4f69;
+}
+.talks .talks-item:first-child {
+  border: 0;
+}
+.talks .talks-item {
+  overflow: hidden;
+  border-top: 1px dashed #dedede;
+  padding: 30px 0;
+}
+.talks .talk-picture {
+  float: left;
+  margin: 0 30px 5px 0;
+  width: 121px;
+}
+.talks .talk-title {
+  font-size: 17px;
+  margin: 11px 0 0;
+}
+.talks .talk-speaker {
+  color: #FFBA00;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.talks .talk-text {
+  font-size: 15px;
+}
+.talks .talk-description {
+  float: left;
+  width: 621px;
+}
 #footer {
   overflow: hidden;
   padding-bottom: 130px
