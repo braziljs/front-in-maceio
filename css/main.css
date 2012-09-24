@@ -177,34 +177,43 @@ hgroup h2 strong {
 }
 #speakers li {
   width: 21%;
-  margin: 0 1% 80px;
+  margin: 0 1% 40px;
   min-height: 195px;
   float: left;
   text-align: center
 }
 #speakers li h3 {
   font-size: 19px;
-  color: #3f4f69;
+  color: #3F4F69;
   margin: 10px 0 6px;
   line-height: 1;
 }
 #speakers li strong {
   font-size: 16px
 }
-#speakers li img,
-.picture {
+
+.avatar-wrapper {
   background-color: #FFF;
-  border: 0px solid #CAD2D8;
+  display: inline-block;
+  padding:10px;
+  border: 1px solid #CAD2D8;
+  -webkit-box-shadow: 1px 1px 0 0 #A9B8C3;
+  box-shadow: 1px 1px 0 0 #A9B8C3;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  -webkit-box-shadow: 1px 1px 0 0 #A9B8C3;
-  box-shadow: 1px 1px 0 0 #A9B8C3;
 }
-/*#speakers li img:hover {
-  cursor: pointer;
+#speakers li img,
+.picture {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
 }
-*/
+.talks .avatar-wrapper {
+  float: left;
+  margin: 0 25px 5px 0;
+}
+
 #speakers .undefined h3 {
   color: #b0b7c2;
 }
@@ -307,11 +316,12 @@ hgroup h2 strong {
 }
 .talks .talks-item:first-child {
   border: 0;
+  padding-top: 0;
 }
 .talks .talks-item {
   overflow: hidden;
   border-top: 1px dashed #dedede;
-  padding: 30px 0;
+  padding: 25px 0;
 }
 .talks .talk-picture {
   float: left;
@@ -323,7 +333,7 @@ hgroup h2 strong {
   margin: 11px 0 0;
 }
 .talks .talk-speaker {
-  color: #FFBA00;
+  color: #3F4F69;
   font-size: 15px;
   margin: 10px 0;
 }
