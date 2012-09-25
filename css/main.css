@@ -220,7 +220,7 @@ hgroup h2 strong {
 }
 .talks .avatar-wrapper {
   float: left;
-  margin: 0 25px 5px 0;
+  margin: 5px 25px 5px 5px;
 }
 
 #speakers .undefined h3 {
