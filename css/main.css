@@ -35,7 +35,7 @@ body {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #B3D4FC;
     text-shadow: none;
 }
 
@@ -437,19 +437,18 @@ hgroup h2 strong {
   display: block
 }
 .venue {
-  color: #b1b7c2;
+  color: #818B9D;
   font-weight: bold;
   font-size: 15px;
   clear:both;
   padding-top: 25px;}
 .venue a {
   font-size: 12px;
-  color: #b1b7c2;
+  color: #818B9D;
 }
 .venue .name {
   font-weight: bold;
-  color: #818b9d
-}
+  color: #B1B7C2;}
 
 /* ==========================================================================
    Helper classes
