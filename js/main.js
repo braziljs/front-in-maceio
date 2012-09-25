@@ -3,7 +3,6 @@ jQuery(function($){
 		var objThis = this;
 		event.preventDefault();
 		var top = parseInt($('.talks-list a[href="' + $(objThis).attr('href') + '"]').parent().position().top);
-		console.log($('.talks-list a[href="' + $(objThis).attr('href') + '"]').position().top);
 		$('body,html').animate({
 			scrollTop: top
 		}, 800, function(){
