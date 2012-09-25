@@ -189,7 +189,8 @@ hgroup h2 strong {
   line-height: 1;
 }
 #speakers li strong {
-  font-size: 16px
+  font-size: 16px;
+  display: inline;
 }
 
 .avatar-wrapper {
@@ -248,7 +249,7 @@ hgroup h2 strong {
   font-weight: bold;
   font-size: 15px;
 }
-.price-range big {
+.price-range strong {
   font-size: 22px;
   color: #3f4f69;
   display: block;
@@ -256,10 +257,11 @@ hgroup h2 strong {
 .price-range li {
   float: left;
   padding: 0 15px 3px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  text-align: center;
 }
 .price-range li+li {
-  border-left: 1px solid #cad2d8
+  border-left: 1px solid #cad2d8;
 }
 
 #enrollment .btn {
@@ -289,11 +291,12 @@ hgroup h2 strong {
   background: linear-gradient(to bottom,  #e5a812 40%,#b76e11 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5a812', endColorstr='#b76e11',GradientType=0 );
 }
-#enrollment .btn big {
+#enrollment .btn strong {
   display: block;
   margin-bottom: 4px;
   font-size: 22px;
   font-weight: bold;
+  color: #fff;
 }
 
 #highlight-text {
@@ -432,7 +435,7 @@ hgroup h2 strong {
   position: relative;
   top: 0;
 }
-.we-need-sponsors big {
+.we-need-sponsors strong {
   font-size: 26px;
   display: block
 }
