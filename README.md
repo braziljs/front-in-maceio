@@ -14,4 +14,4 @@ Faça um pull request
 
 
 
-### Fique a vontade em consertar se tiver algo errado. =]
+### Fique a vontade para consertar algo que esteja errado. =]
