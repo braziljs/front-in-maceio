@@ -323,8 +323,11 @@ hgroup h2 strong {
 }
 /* map */
 .location {
-  margin: 0 0 80px;
+  height: 300px;
+  margin: 0;
 }
+
+
 /* talks */
 .talks {
   margin-bottom: 20px;
@@ -446,18 +449,23 @@ hgroup h2 strong {
   display: block
 }
 .venue {
-  color: #818B9D;
+  color: #B1B7C2;
   font-weight: bold;
-  font-size: 15px;
-  clear:both;
-  padding-top: 25px;}
-.venue a {
   font-size: 12px;
+  padding: 10px 0 0;
+  margin-bottom: 40px;
+  clear:both;}
+.venue h4 {
+  display: inline;
+  color: #3F4F69;
+}
+.venue a {
+  font-size: 11px;
   color: #818B9D;
 }
 .venue .name {
   font-weight: bold;
-  color: #B1B7C2;}
+  color: #818B9D;}
 
 /* ==========================================================================
    Helper classes
