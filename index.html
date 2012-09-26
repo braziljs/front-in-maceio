@@ -143,9 +143,17 @@ Explorando todos os novos sensores disponíveis no HTML5 – acelerômetro, geol
       </section>
     </div>
 
-    <div class="location" id="gmap">
-      <iframe height="380" src="https://maps.google.com.br/maps?cid=5459603894742050953&amp;q=Centro+Universit%C3%A1rio+CESMAC+-+Campus+I&amp;ie=UTF8&amp;t=m&amp;ll=-9.65403,-35.737131&amp;spn=0.005077,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe>
-    </div>
+    <div class="location" id="gmap"></div>
+    <section itemprop="location" itemscope itemtype="http://schema.org/Place" id="venue" class="venue container">
+      <h4>Local do evento:</h4>
+      <span itemprop="name" class="name">CESMAC - Centro de Estudos Superiores de Maceió</span>
+      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">Rua Cônego Machado, S/N, Farol. </span>
+        <span itemprop="addressLocality">Maceió</span>, <span itemprop="addressRegion"> AL</span>
+      </span>
+      <a href="https://maps.google.com.br/maps?cid=5459603894742050953&amp;q=Centro+Universit%C3%A1rio+CESMAC+-+Campus+I" rel="external">veja no google maps</a>
+      <meta itemprop="map" content="https://maps.google.com.br/maps?cid=5459603894742050953&amp;q=Centro+Universit%C3%A1rio+CESMAC+-+Campus+I">
+    </section>
 
     <section class="container talks">
       <h4 class="title">Palestras</h4>
@@ -281,16 +289,6 @@ Explorando todos os novos sensores disponíveis no HTML5 – acelerômetro, geol
             </li>
           </ul>
         </section>
-        <section itemprop="location" itemscope itemtype="http://schema.org/Place" id="venue" class="venue">
-          <h4>Local do evento</h4>
-          <span itemprop="name" class="name">CESMAC - Centro de Estudos Superiores de Maceió</span>
-          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress">Rua Cônego Machado, S/N, Farol. </span>
-            <span itemprop="addressLocality">Maceió</span>, <span itemprop="addressRegion"> AL</span>
-          </span>
-          <a href="#gmap">veja no google maps</a>
-          <meta itemprop="map" content="https://maps.google.com.br/maps?cid=5459603894742050953&amp;q=Centro+Universit%C3%A1rio+CESMAC+-+Campus+I">
-        </section>
       </div>
     </footer>
   </div>
@@ -298,6 +296,7 @@ Explorando todos os novos sensores disponíveis no HTML5 – acelerômetro, geol
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script src="js/main.js"></script>
 
   <script>

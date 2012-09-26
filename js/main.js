@@ -15,6 +15,26 @@ jQuery(function($){
 		return false;
 	});
 	$("#speakers ul li").shuffle();
-//	$("*[rel=popover]").popover();
-//	$(".popover").popover();
+
 });
+
+function initialize() {
+		var icon = 'img/icons/map/marker.png',
+			latlng = new google.maps.LatLng(-9.65573,-35.73758); //Longitude e Latitude do local http://universimmedia.pagesperso-orange.fr/geo/loc.htm
+		var options = {
+		  zoom: 16,
+		  center: latlng,
+		  scrollwheel: false,
+		  streetViewControl: true,
+		  labels: true,
+		  mapTypeId: google.maps.MapTypeId.HYBRID
+		};
+		var map = new google.maps.Map(document.getElementById("gmap"), options);
+		map.setTilt(45);
+		var marker = new google.maps.Marker({
+		    position: latlng,
+		    map: map,
+		    icon: icon
+		});
+} 
+initialize();
