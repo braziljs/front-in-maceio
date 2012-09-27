@@ -14,3 +14,7 @@
   Juarez P. A. Filho
   Site: https://github.com/juarezpaf
   Location: Maceio, Brazil
+
+  Ramon Victor
+  Site: https://github.com/ramonvictor
+  Location: Recife, Brazil
