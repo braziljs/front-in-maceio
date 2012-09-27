@@ -32,6 +32,11 @@
   Site: https://github.com/ramonvictor
   Twitter: @ramonvictor
   Location: Recife, Brazil
+
+  CSS bug seeker: Caio Gondim
+  Site: https://github.com/caiogondim
+  Twitter: @caiogondim
+  Location: São Luís, Brazil
                             
 # SITE                   
   Last update: 2012/09/27

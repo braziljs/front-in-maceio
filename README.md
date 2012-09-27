@@ -14,4 +14,4 @@ Faça um pull request
 - Caso deseja alterar o css, utilize o arquivo css/main.less e não esqueça de compilar antes de subir, para maiores informações acesse http://lesscss.org/
 
 
-## Fique à vontade para consertar algo que esteja errado. =]
+#### Fique à vontade para consertar algo que esteja errado. =]
