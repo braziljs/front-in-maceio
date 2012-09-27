@@ -16,6 +16,8 @@ jQuery(function($){
 	});
 	$("#speakers ul li").shuffle();
 
+	$(".talks-list li:odd").addClass("right");
+
 });
 
 function initialize() {
