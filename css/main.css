@@ -501,7 +501,7 @@ hgroup h2 strong {
 .talks .talks-item {
   overflow: hidden;
   border-top: 1px dashed #dedede;
-  padding: 25px 0;
+  padding: 25px 10px;
 }
 .talks .talks-item:first-child {
   border: 0;
