@@ -431,7 +431,7 @@ hgroup h2 strong {
   padding-left: 16px;
 }
 #enrollment .btn {
-  width: 301px;
+  width: 240px;
   padding: 12px 0;
   border-width: 1px;
   border-style: solid;
@@ -524,6 +524,14 @@ hgroup h2 strong {
 }
 .talks .talk-text {
   font-size: 15px;
+}
+.talks .talk-text a {
+  color: #ffba00;
+  font-weight: bold;
+  text-decoration: none;
+}
+.talks .talk-text a:hover {
+  text-decoration: underline;
 }
 .talks .talk-description {
   float: left;
