@@ -584,6 +584,22 @@ hgroup h2 strong {
 #sponsors {
   clear: both;
 }
+#curadores {
+  clear: both;
+}
+#curadores li {
+  color: #232C3B;
+  font-weight: bold;
+}
+#curadores a {
+  background: url("../img/icons/github.png") no-repeat scroll 0 5px transparent;
+  background-size: 14px 14px;
+  color: #333;
+  display: block;
+  font-size: 0.8em;
+  margin-top: 5px;
+  padding: 5px 0 5px 20px;
+}
 .we-need-sponsors {
   background: #fff;
   font-weight: bold;
