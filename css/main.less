@@ -43,10 +43,12 @@ section strong {
   margin: 38px 0 0 58px
 }
 
-header {
-  height: 322px;
-
+#wrapper {
+  &>header {
+    height: 322px;
+  }
 }
+
 hgroup {
 
   h1{
@@ -173,6 +175,10 @@ hgroup {
 .talks .avatar-wrapper {
   float: left;
   margin: 5px 25px 5px 5px;
+  &.right {
+    float: right;
+    margin: 5px 5px 5px 25px;
+  }
 }
 
 #speakers .undefined h3 {
@@ -213,6 +219,29 @@ hgroup {
   }
 }
 
+.btn {
+  padding: 12px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e19028 #c67a18 #a35d04 #c07515;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0 1px 2px #785b02;
+
+  .rounded(4px);
+  background: #e5a812;
+
+  strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
 #enrollment {
   width: 260px;
   margin: 40px auto 0;
@@ -220,29 +249,8 @@ hgroup {
 
   .btn {
     width: 240px;
-    padding: 12px 0;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #e19028 #c67a18 #a35d04 #c07515;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFF;
-    text-shadow: 0 1px 2px #785b02;
-
-    .rounded(4px);
-    background: #e5a812;
-
-    strong {
-      display: block;
-      margin-bottom: 4px;
-      font-size: 22px;
-      font-weight: bold;
-      color: #fff;
-    }
+    padding: 12px 0
   }
-
 }
 
 .boxshadow #enrollment .btn{
@@ -261,10 +269,15 @@ hgroup {
 }
 
 
-#highlight-text {
+.highlight-text {
   background-color: #3f4f69;
   margin: -32px 0 0;
-
+  &.workshop-teaser {
+    margin: 0;
+    p {
+      padding:40px 0 110px;
+    }
+  }
   p {
     font-size: 36px;
     line-height: 120%;
@@ -274,7 +287,6 @@ hgroup {
     padding: 75px 0;
     margin: 0;
   }
-
   strong {
     color: #fff;
   }
@@ -354,6 +366,69 @@ hgroup {
   article {
     float: right;
     text-align: right;
+  }
+}
+
+.workshops-list {
+  overflow: hidden;
+  margin-top: -90px;
+  padding-bottom: 5px;
+  &>li {
+    background: url("../img/workshops/css3.png") no-repeat 324px 165px;
+    background-size:120px 130px;
+    position: relative;
+    width: 46%;
+    min-height: 390px;
+    padding: 0 2% 0 2%;
+    float: left;
+    text-align: right;
+    article {
+      padding-right: 39%;
+      hgroup {
+        padding-top: 10px;
+        height: 80px;
+        .talk-title, .talk-speaker, a {
+          color: #FFF;
+          font-weight: 400;
+          text-decoration: none;
+        }
+      }
+      .btn {
+        position: absolute;
+        right:39%;
+        left:0;
+        bottom: 0;
+        text-align: left;
+      }
+    }
+    &+li {
+      background: url("../img/workshops/angularjs.png") no-repeat 35px 165px;
+      background-size: 120px;
+      text-align: left;
+      article {
+        padding:0 0 0 39%;
+        .btn {
+          position: absolute;
+          left:39%;
+          right: 0;
+          text-align: right;
+        }
+      }
+    }
+    p.talk-text {
+      font-size: 12px;
+      line-height: 120%;
+      min-height: 84px;
+    }
+  }
+  ol {
+    list-style: none;
+    padding: 0;
+    li {
+      font-size: 12px;
+      line-height: 120%
+
+    }
   }
 }
 
