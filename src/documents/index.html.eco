@@ -8,6 +8,38 @@ layout: default
 <%-@partial('section/speakers.html.eco', @)%>
 <%-@partial('section/schedule.html.eco', @)%>
 <%-@partial('section/workshops.html.eco', @)%>
-<%-@partial('section/sponsors.html.eco', @)%>
-<%-@partial('section/partners.html.eco', @)%>
+
+
 <%-@partial('section/contact.html.eco', @)%>
+
+<footer id="footer">
+  <div class="container">
+
+    <%-@partial('section/partners.html.eco', @)%>
+
+    <section id="organization">
+      <h4>Organização</h4>
+      <ul>
+        <li>
+          <a href="http://www.braziljs.org" rel="external">
+            <img src="img/organization/braziljs.jpg" alt="BrazilJS Foundation logo" width="118" height="44">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="curadores">
+      <h4>Curadores</h4>
+      <ul>
+        <li>
+          <span>Davidson Fellipe</span>
+          <a href="http://github.com/davidsonfellipe">davidsonfellipe</a>
+        </li>
+        <li>
+          <span>Juarez PAF</span>
+          <a href="http://github.com/juarezpaf">juarezpaf</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</footer>

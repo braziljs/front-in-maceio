@@ -1,22 +1,18 @@
 <% if @sections.partners == true: %>
 
-  <!-- PARTNERS -->
-  <section class="partners" id="partners">
-    <h2 class="section-title">Partners</h2>
-    <ul class="partners-list">
+  <section id="supporters">
+    <h4>Apoio</h4>
+    <ul class="supporters">
 
     <% for partner in @partners: %>
-      <li class="partner-item">
-        <a class="partner-logo partner-link" href="<%= partner.url %>"><img src="<%= partner.logo %>" alt="<%= partner.name %>" class="photo" /></a>
+      <li>
+        <a href="<%= partner.url %>" rel="external">
+          <img src="<%= partner.logo %>" alt="<%= partner.name %> logo">
+        </a>
       </li>
     <% end %>
 
-      <li class="partner-item">
-        <a class="partner-logo partner-link partner-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
-      </li>
-
     </ul>
   </section>
-  <!-- / PARTNERS -->
 
 <% end %>
