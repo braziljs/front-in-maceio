@@ -26,6 +26,7 @@
       location: true
       speakers: false
       schedule: true
+      workshops: true
       sponsors: false
       partners: false
       contact: false
