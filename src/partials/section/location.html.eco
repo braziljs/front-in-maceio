@@ -1,0 +1,15 @@
+<% if @sections.location == true: %>
+
+  <!-- LOCATION -->
+  <section class="location" id="location">
+    <h2 class="section-title">Location</h2>
+
+    <% if @conf.address != '': %>
+      <p><%= @conf.address %></p>
+      <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+    <% end %>
+
+  </section>
+  <!-- / LOCATION -->
+
+<% end %>
