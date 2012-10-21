@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<%-@partial('header.html.eco', @)%>
 <%-@partial('section/about.html.eco', @)%>
 <%-@partial('section/location.html.eco', @)%>
 <%-@partial('section/speakers.html.eco', @)%>
