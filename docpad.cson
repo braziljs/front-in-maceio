@@ -4,11 +4,11 @@
     # Conference info
     conf:
       name: "Front in Maceió 2012"
-      description: "Conference description"
+      description: "O Front in Maceió 2012 tem foco em desenvolvimento Front-end e o evento acontecerá em Maceió no dia 27 de Outubro no auditório principal do CESMAC"
       date: "27 de out"
       price: "$100"
-      address: "Boulevard Kukulcan, 30, México"
-      venue: "CESMAC"
+      address: ""
+      venue: "CESMAC - Centro de Estudos Superiores de Maceió"
       city: "Maceió"
 
     # Site info
@@ -22,12 +22,12 @@
 
     # Active sections on the website
     sections:
-      about: true
+      about: false
       location: true
-      speakers: true
+      speakers: false
       schedule: true
-      sponsors: true
-      partners: true
+      sponsors: false
+      partners: false
       contact: false
 
     # The entire schedule
