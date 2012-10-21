@@ -376,6 +376,48 @@ hgroup {
   }
 }
 
+.schedule {
+  table {
+    width: 100%;
+
+    tr:nth-child(even) {background: #ebeff3}
+    tr:nth-child(odd) {background: #fff}
+
+    td {
+      padding: 11px 0;
+      font-weight: normal;
+      letter-spacing: -1px;
+      font-size: 18px;
+
+      span {
+        font-size: 14px;
+        color: #3f4f69;
+        margin-left: 10px;
+      }
+    }
+
+    td:first-child {
+      width: 100px;
+      border-right: 1px solid #fff;
+      color: #818b9d;
+      text-align: center;
+    }
+
+    td:last-child {
+      padding-left: 20px;
+      color: #243040;
+    }
+
+    .checkpoint {
+      td { color: #fff; }
+      td:first-child { background: #243040; }
+      td:last-child { background: #3f4f69; }
+    }
+
+    .coffee { background: #fff600; }
+  }
+}
+
 .workshops-list {
   overflow: hidden;
   margin-top: -90px;
