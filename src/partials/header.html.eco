@@ -1,16 +1,109 @@
-<a href="https://github.com/braziljs/conf-boilerplate"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 11;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
-
-<!-- HEADER -->
-<header class="header" style="background-image: url(<%= @site.images.cover %>)">
-  <div class="wrapper">
-    <h1 class="logo-name"><a class="logo-link" href="#" title="<%= @conf.name %>"><%= @conf.name %></a></h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
-    <div class="call-action-area">
-      <span class="price">Only <%= @conf.price %></span>
-      <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a>
-    </div>
+<header class="container">
+  <hgroup>
+    <h1><a href="/"><img src="img/logo.png" alt="Front in Maceió" class="logo" width="193" height="83"></a></h1>
+    <h2><strong><time itemprop="startDate" datetime="2012-10-27">27 de out</time></strong> CESMAC - Maceió</h2>
+  </hgroup>
+  <div class="social-media">
+    <a href="http://fb.com/frontinmaceio" rel="external" class="fb">Front in Maceió on Facebook</a>
+    <a href="http://twitter.com/frontinmaceio" rel="external" class="twitter">Front in Maceió on Twitter</a>
+    <a href="mailto:hey@frontinmaceio.com.br?Subject=Front%20in%20Maceió%20%2B%20Contato" rel="external" class="mail">Dúvidas, críticas ou sugestões</a>
   </div>
+  <ul class="share">
+      <li class="twitter">
+          <a href="https://twitter.com/frontinmaceio" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Seguir @frontinmaceio</a>
+      </li>
+      <li class="twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Eu vou para o @frontinmaceio 2012 no dia 27 de Outubro em Maceió!" data-count="none" data-related="frontinmaceio" data-dnt="true" data-lang="pt-BR">Tweet</a>
+      </li>
+      <li class="facebook">
+          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com/frontinmaceio&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=326273014110834" style="border:none; overflow:hidden; width:80px; height:21px;"></iframe>
+      </li>
+      <li class="plusone">
+        <div class="g-plusone" data-size="medium"></div>
+      </li>
+    </ul>
 </header>
-<!--  / HEADER -->
 
-<hr />
+<div role="main" class="main">
+  <section id="speakers" class="container">
+    <ul>
+      <li>
+        <article>
+          <a href="#zeno-keynote" class="avatar-wrapper"><img src="img/speakers/zeno.jpg" alt="Zeno Rocha avatar" width="121" height="121"></a>
+          <h3>Zeno Rocha</h3>
+          <strong>Liferay, Inc</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#loopinfinito-keynote" class="avatar-wrapper"><img src="img/speakers/loopinfinito/caio.png" alt="Caio Gondim - Loop Infinito " width="121" height="121"></a>
+          <h3>Caio Gondim</h3>
+          <strong>Loop Infinito</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#loopinfinito-keynote" class="avatar-wrapper"><img src="img/speakers/loopinfinito/almir.png" alt="Almir Filho - Loop Infinito " width="121" height="121"></a>
+          <h3>Almir Filho</h3>
+          <strong>Loop Infinito</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#dennis-keynote" class="avatar-wrapper"><img src="img/speakers/dennis.png" alt="Dennis Calazans avatar" width="121" height="121"></a>
+          <h3>Dennis Calazans</h3>
+          <strong>Unibratec/Marista</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#giovanni-keynote" class="avatar-wrapper"><img src="img/speakers/giovanni.png" alt="Giovanni Keppelen avatar" width="121" height="121"></a>
+          <h3>Giovanni Keppelen</h3>
+          <strong>Peixe Urbano</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#icaro-keynote" class="avatar-wrapper"><img src="img/speakers/icaro.png" alt="Ícaro Medeiros avatar" width="121" height="121"></a>
+          <h3>Ícaro Medeiros</h3>
+          <strong>Globo.com</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#bernard-keynote" class="avatar-wrapper"><img src="img/speakers/bernard.png" alt="Bernard De Luna avatar" width="121" height="121"></a>
+          <h3>Bernard De Luna</h3>
+          <strong>Melt DSP</strong>
+        </article>
+      </li>
+      <li>
+        <article>
+          <a href="#suissa-keynote" class="avatar-wrapper"><img src="img/speakers/suissa.jpg" alt="Jean Nascimento" width="121" height="121"></a>
+          <h3>Suissa</h3>
+          <strong>Nodeware</strong>
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <section id="enrollment">
+    <ul class="price-range">
+        <li>
+            <strong>R$ 50,00</strong> estudante
+        </li>
+        <li>
+            <strong>R$ 65,00</strong> profissionais
+        </li>
+    </ul>
+
+    <a href="http://eventick.com.br/front-in-maceio" rel="external" class="btn btn-success" itemprop="offers">
+      <strong>Inscreva-se agora!</strong>
+      <span>*inscrição via Eventick</span>
+    </a>
+
+  </section>
+
+  <section class="highlight-text">
+    <p>Seguindo o sucesso de outros eventos, o <span itemprop="name">Front in Maceió</span> <br /> será <span itemprop="description">o <strong>primeiro evento</strong> focado em desenvolvimento frontend<br/> no nordeste do Brasil.</span></p>
+  </section>
+</div>
