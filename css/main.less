@@ -26,7 +26,8 @@
 
 body {
   background: url("../img/bg.jpg") center -30px no-repeat;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arial", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -142,6 +143,7 @@ hgroup {
     color: #3F4F69;
     margin: 10px 0 6px;
     line-height: 1;
+    letter-spacing: -1px;
   }
   strong {
     font-size: 16px;
@@ -286,6 +288,7 @@ hgroup {
     font-weight: 100;
     padding: 75px 0;
     margin: 0;
+    letter-spacing: -1px;
   }
   strong {
     color: #fff;
@@ -299,14 +302,18 @@ hgroup {
 }
 // talks
 .talks {
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 
   .title {
-    margin: 0 0 25px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #cbd4d6;
-    font-size: 18px;
+    margin: 0 0 40px;
+    padding: 0 0 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: -0.094em;
     color: #3f4f69;
+    text-transform: lowercase;
+    background: url(../img/generic-title-icon.png) no-repeat 0 0;
   }
 
   .talks-item {
@@ -441,10 +448,23 @@ hgroup {
 
   h4 {
     margin: 0 0 25px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #2e3c52;
-    font-size: 18px;
-    color: #7b8daa;
+    padding: 0 0 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: -0.094em;
+    color: #fff;
+    text-transform: lowercase;
+    background: url(../img/generic-title-icon.png) no-repeat 0 0;
+  }
+
+  section {
+    float: left;
+    margin: 0 0 40px;
+  }
+
+  section:last-child {
+    margin: 0;
   }
 
   section li {
@@ -504,17 +524,18 @@ hgroup {
   color: #3f4f69;
   border: 1px solid #dadfe1;
   text-align: center;
-  -webkit-box-shadow: 0 1px 0 0 #97A2A8;
-  box-shadow: 0 1px 0 0 #97A2A8;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px 0 #2a3649;
+  box-shadow: 0 1px 3px 0 #2a3649;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
   display: inline-block;
   width: 180px;
-  padding: 12px 0 8px;
+  padding: 12px 0;
   text-decoration: none;
   position: relative;
-  top: 0;
+  top: -4px;
+  line-height: 16px;
 
   strong {
     font-size: 26px;
@@ -552,24 +573,30 @@ hgroup {
 
 }
 .venue {
-  color: #B1B7C2;
+  color: #fff;
   font-weight: bold;
   font-size: 12px;
-  padding: 10px 0 0;
-  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 15px;
+  position: relative;
+  top: -71px;
   clear: both;
+  letter-spacing: -0.031em;
 
-  h4 {
-    display: inline;
-    color: #3F4F69;
-  }
-  a {
-    font-size: 11px;
-    color: #818B9D;
-  }
+  background: -moz-linear-gradient(top,  rgba(18,25,33,0) 0%, rgba(18,25,33,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,25,33,0)), color-stop(100%,rgba(18,25,33,1)));
+  background: -webkit-linear-gradient(top,  rgba(18,25,33,0) 0%,rgba(18,25,33,1) 100%);
+  background: -o-linear-gradient(top,  rgba(18,25,33,0) 0%,rgba(18,25,33,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(18,25,33,0) 0%,rgba(18,25,33,1) 100%);
+  background: linear-gradient(to bottom,  rgba(18,25,33,0) 0%,rgba(18,25,33,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00121921', endColorstr='#121921',GradientType=0 );
+
   .name {
-   font-weight: bold;
-    color: #818B9D;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
   }
 }
 
