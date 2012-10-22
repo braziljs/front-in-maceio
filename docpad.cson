@@ -24,18 +24,22 @@
     sections:
       about: false
       location: true
-      speakers: false
+      speakers: true
+      lightning: true
       schedule: true
       workshops: true
-      partners: false
-      contact: false
+      partners: true
 
     # The entire schedule
     schedule: [
       name: "Credenciamento"
       time: "8h00"
     ,
+      name: "Abertura"
+      time: "9h00"
+    ,
       name: "Dennis Calazans"
+      alias: "dennis"
       photo: "http://frontinmaceio.com.br/img/speakers/dennis.png"
       bio: "Professor na Unibratec e Marista e Mestre pela UFPE"
       company: "Unibratec/Marista"
@@ -45,6 +49,7 @@
         time: "9h15"
     ,
       name: "Ícaro Medeiros"
+      alias: "icaro"
       photo: "http://frontinmaceio.com.br/img/speakers/icaro.png"
       bio: "Engenheiro de Software Senior na Globo.com"
       company: "Globo.com"
@@ -54,6 +59,7 @@
         time: "10h00"
     ,
       name: "Almir Filho e Caio Gondim"
+      alias: "loop"
       photo: "http://frontinmaceio.com.br/img/speakers/loopinfinito/l8p.png"
       bio: "Criadores do Loop Infinito"
       company: "Loop Infinito"
@@ -63,6 +69,7 @@
         time: "10h45"
     ,
       name: "Giovanni Keppelen"
+      alias: "giovanni"
       photo: "http://frontinmaceio.com.br/img/speakers/giovanni.png"
       bio: "Engenheiro de Frontend no Peixe Urbano"
       company: "Peixe Urbano"
@@ -71,37 +78,41 @@
         description: "Por uma web mais rápida, mostrarei a importância da performance em uma aplicação web. E ainda, como isso pode retornar um grande valor para você (profissional) e sua empresa. Com grandes dicas que bem usadas serão de grande valor."
         time: "11h30"
     ,
-      name: "Almoço"
+      name: "Almoço (não custeado pelo evento)"
       time: "12h15"
     ,
       name: "Nicholas Fazio"
+      alias: "fazio"
       photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/nicholas.jpg"
       bio: "Ilhasoft"
       company: "Ilhasoft"
-      presentation:
+      lightning:
         title: "Desenvolvimento HTML5 Mobile com Sencha Touch"
         description: "A empresa Sencha pensou em como poderia usar o know-how já existente da web e as novas tecnologias, como o HTML5 – que a maioria dos desenvolvedores já sabiam ou iriam aprender – na plataforma mobile, evitando que esses tenham que aprender diversas linguagens e enfrentar outros problemas, assim, surgiu o Sencha Touch."
         time: "13h00"
     ,
       name: "Ramon Victor"
+      alias: "ramon"
       photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/ramon.jpg"
       bio: "Designer de Interação na TangerinaLab"
       company: "TangerinaLab"
-      presentation:
+      lightning:
         title: "Pré-processadores CSS: porque são bons e onde devemos tomar cuidado"
         description: "Por que surgiram os pré-processadores CSS? Como eles podem ser úteis? E por que ter conhecimento da boa e antiga forma de se escrever CSS é necessário para não fazer feio."
         time: "13h20"
     ,
       name: "Luiz Tiago"
+      alias: "luiz"
       photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/luiz.jpg"
       bio: "Gerente de Frontend na MGR Tecnologia"
       company: "MGR Tecnologia"
-      presentation:
+      lightning:
         title: "Zepto.JS - Fazendo mais com menos"
         description: "A árdua tarefa de escolher qual biblioteca utilizar nos projetos fica cada vez mais difícil. Zepto é uma biblioteca minimalista desenvolvida para browsers modernos, tão simples de ser usada quanto o jQuery. E bem mais leve!"
         time: "13h40"
     ,
       name: "Jean Nascimento aka Suissa"
+      alias: "jean"
       photo: "http://frontinmaceio.com.br/img/speakers/suissa.jpg"
       bio: "Líder Técnico na Nodeware"
       company: "Nodeware"
@@ -111,6 +122,7 @@
         time: "14h00"
     ,
       name: "Bernard De Luna"
+      alias: "bernard"
       photo: "http://frontinmaceio.com.br/img/speakers/bernard.png"
       bio: "UX e Diretor Criativo da Melt DSP"
       company: "Melt DSP"
@@ -123,6 +135,7 @@
       time: "15h40"
     ,
       name: "Zeno Rocha"
+      alias: "zeno"
       photo: "http://frontinmaceio.com.br/img/speakers/zeno.jpg"
       bio: "Front-end Engineer na Liferay, Inc."
       company: "Liferay, Inc."
@@ -131,22 +144,58 @@
         description: "Erros, acertos e aprendizados em uma carreira curta, porém bem agitada, como desenvolvedor front-end."
         time: "16h00"
     ,
+      name: "Mesa Redonda (7Masters)"
+      time: "17h00"
+    ,
       name: "Sorteios + Agradecimentos = Encerramento"
       time: "18h00"
     ]
 
-    # List of Sponsors
-    sponsors: [
-      name: "Eventick"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-      url: "http://eventick.com.br"
-    ]
-
     # List of Partners
     partners: [
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-      url: "http://braziljs.org"
+        name: "Opera"
+        logo: "http://frontinmaceio.com.br/img/supporters/opera.jpg"
+        url: "http://www.opera.com"
+      ,
+        name: "iMasters"
+        logo: "http://frontinmaceio.com.br/img/supporters/imasters.jpg"
+        url: "http://www.imasters.com.br"
+      ,
+        name: "Eventick"
+        logo: "http://frontinmaceio.com.br/img/supporters/eventick.jpg"
+        url: "http://www.eventick.com.br"
+      ,
+        name: "CESMAC"
+        logo: "http://frontinmaceio.com.br/img/supporters/cesmac.jpg"
+        url: "http://www.fejal.com.br"
+      ,
+        name: "Caravana Web"
+        logo: "http://frontinmaceio.com.br/img/supporters/caravanaweb.jpg"
+        url: "http://www.caravanaweb.com.br"
+      ,
+        name: "Freaks"
+        logo: "http://frontinmaceio.com.br/img/supporters/freaks.jpg"
+        url: "https://www.facebook.com/usefreaks"
+      ,
+        name: "Peixe Urbano"
+        logo: "http://frontinmaceio.com.br/img/supporters/peixeurbano.jpg"
+        url: "http://www.peixeurbano.com.br"
+      ,
+        name: "Casa do Código"
+        logo: "http://frontinmaceio.com.br/img/supporters/casadocodigo.jpg"
+        url: "http://www.casadocodigo.com.br"
+      ,
+        name: "VGWeb"
+        logo: "http://frontinmaceio.com.br/img/supporters/vgweb.jpg"
+        url: "http://www.vgweb.com.br"
+      ,
+        name: "Novatec"
+        logo: "http://frontinmaceio.com.br/img/supporters/novatec.jpg"
+        url: "http://www.novatec.com.br"
+      ,
+        name: "Liferay"
+        logo: "http://frontinmaceio.com.br/img/supporters/liferay.jpg"
+        url: "http://liferay.com"
     ]
 
 }

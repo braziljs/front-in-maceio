@@ -6,11 +6,9 @@ layout: default
 <%-@partial('section/about.html.eco', @)%>
 <%-@partial('section/location.html.eco', @)%>
 <%-@partial('section/speakers.html.eco', @)%>
+<%-@partial('section/lightning.html.eco', @)%>
 <%-@partial('section/schedule.html.eco', @)%>
 <%-@partial('section/workshops.html.eco', @)%>
-
-
-<%-@partial('section/contact.html.eco', @)%>
 
 <footer id="footer">
   <div class="container">
