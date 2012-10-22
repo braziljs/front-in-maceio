@@ -1,11 +1,9 @@
 # Front in Maceió 2012
 
----
-
 Esse é o código-fonte do site do evento [Front in Maceió 2002](http://frontinmaceio.com.br)!
 Fique à vontade para consertar algo que esteja errado =]
 
-Toda estrutura é baseada no projeto [ConfBoilerplate](http://github.com/braziljs/conf-boilerplate).
+Toda estrutura é baseada no projeto [Conf Boilerplate](http://github.com/braziljs/conf-boilerplate).
 
 ---
 
@@ -21,11 +19,11 @@ Nós usamos o [DocPad](https://github.com/bevry/docpad), um static generator em 
 
 Por padrão, definimos as seguintes seções:
 
-* *About* - Para que você possa descrever o objetivo do seu evento.
-* *Location* - Para que você possa exibir a localização do seu evento através do Google Maps.
-* *Speakers* - Para que você possa listar informações sobre os palestrantes.
-* *Schedule* - Para que você possa mostrar a agenda do evento.
-* *Sponsors* - Para que você possa fazer propaganda dos seus patrocinadores.
+* *Location* - Para exibir a localização do evento através do Google Maps.
+* *Speakers* - Para listar informações sobre os palestrantes.
+* *Lightning* - Para listar informações sobre as lightning talks.
+* *Schedule* - Para mostrar a agenda do evento.
+* *Workshops* - Para mostrar os workshops oferecidos pelo evento.
 * *Partners* - Para que você possa fazer propaganda dos seus apoiadores.
 
 *OBS 1: Não há integração com nenhum sistema de inscrição e/ou pagamento. Por conta disso, indicamos o [Eventick](http://eventick.com.br/).*
@@ -218,7 +216,7 @@ Nós não gostamos de centralizar o poder de deploy em uma pessoa, portanto util
 * Dê permissão de execução para o script publish.sh - `chmod +x publish.sh`
 * Rode `sh publish.sh` na raíz do projeto.
 
-Espere alguns minutos até que o Github lhe envie um e-mail avisando que tudo ocorreu bem. Depois é só acessar: `http://seuUsuario.github.com/seuFork`
+Espere alguns minutos até que o Github lhe envie um e-mail avisando que tudo ocorreu bem. Depois é só acessar: `http://braziljs.github.com/front-in-maceio`
 
 OBS: Lembre-se de remover o arquivo `CNAME` que está na pasta `src/files` do seu projeto, caso você queira utilizar a URL pré-definida pelo Github.
 
@@ -226,7 +224,7 @@ OBS: Lembre-se de remover o arquivo `CNAME` que está na pasta `src/files` do se
 
 Caso você não queira utilizar o domínio do Github, é possível usar seu próprio com alguns passos.
 
-1. Altere o arquivo `CNAME` que está na pasta `src/files` do seu projeto e preencha com o nome do seu domínio: `seuevento.com`. [Veja o exemplo](https://github.com/braziljs/conf-boilerplate/blob/master/src/files/CNAME).
+1. Altere o arquivo `CNAME` que está na pasta `src/files` do seu projeto e preencha com o nome do seu domínio: `frontinmaceio.com.br`. [Veja o exemplo](https://github.com/braziljs/conf-boilerplate/blob/master/src/files/CNAME).
 2. Altere o DNS do seu domínio seguindo as [instruções do Github](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
 ### Como fazer sem Deploy utilizar Github Pages
