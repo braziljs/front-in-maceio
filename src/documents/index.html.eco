@@ -25,7 +25,7 @@ layout: default
       </ul>
     </section>
 
-    <section id="curadores">
+    <section id="curadores" class="responsible">
       <h4>Curadores</h4>
       <ul>
         <li>
@@ -35,6 +35,16 @@ layout: default
         <li>
           <span>Juarez PAF</span>
           <a href="http://github.com/juarezpaf">juarezpaf</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="designer" class="responsible">
+      <h4>Designer</h4>
+      <ul>
+        <li>
+          <span>Filipe Guth</span>
+          <a href="http://github.com/fguth">fguth</a>
         </li>
       </ul>
     </section>
