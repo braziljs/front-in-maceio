@@ -85,27 +85,27 @@ Shell Script responsável pela publicação do site via [Github Pages](http://pa
 
 2. Abra o terminal e baixe o [DocPad](https://github.com/bevry/docpad) através do comando:
 
-    sudo npm install -fg docpad@6.8
+		sudo npm install -fg docpad@6.8
 
 3. Instale o [DocPad](https://github.com/bevry/docpad):
 
-    docpad install
+    	docpad install
 
 4. Agora clone o projeto:
 
-    git clone git@github.com:braziljs/front-in-maceio.git
+    	git clone git@github.com:braziljs/front-in-maceio.git
 
 5. Depois vá para pasta do projeto:
 
-    cd front-in-maceio
+    	cd front-in-maceio
 
 6. Instale as dependências:
 
-    sudo npm install .
+    	sudo npm install .
 
 7. E finalmente rode:
 
-    docpad run
+    	docpad run
 
 Agora você irá ver o site rodando em `localhost:9778` :D
 
