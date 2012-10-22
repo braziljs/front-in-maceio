@@ -1,11 +1,11 @@
 {
-  "name": "ConfBoilerplate",
+  "name": "Front in Maceió",
   "version": "0.2.0",
-  "description": "A kickstart to create websites for conference/events.",
-  "homepage": "http://confboilerplate.com",
+  "description": "Evento de Front-end em Maceió, Alagoas",
+  "homepage": "http://frontinmaceio.com.br",
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/braziljs/conf-boilerplate.git"
+    "url" : "http://github.com/braziljs/front-in-maceio.git"
   },
   "engines" : {
     "node": "0.8.x",
