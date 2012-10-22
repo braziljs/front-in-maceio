@@ -24,7 +24,6 @@
 
     # Active sections on the website
     sections:
-      about: false
       location: true
       speakers: true
       lightning: true
