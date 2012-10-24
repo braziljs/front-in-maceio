@@ -14,7 +14,7 @@ jQuery(function($){
 		window.open( $(this).attr('href'));
 		return false;
 	});
-	$("#speakers ul li").shuffle();
+	$("#speakers ul li:not(.fixed)").shuffle();
 
 	$(".talks-list li:odd").addClass("right");
 
