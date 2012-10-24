@@ -1,0 +1,56 @@
+<% if @sections.workshops == true: %>
+
+  <div id="workshops">
+    <section class="highlight-text workshop-teaser">
+      <p>Traremos também para o <span itemprop="name">Front in Maceió</span> 2012 <br> <strong>Workshops focados em front-end</strong><br> que elevarão seus conhecimentos, escolha o seu.</p>
+    </section>
+    <section class="workshops container talks">
+      <ul class="workshops-list">
+        <li id="bernard-workshop" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+          <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" class="avatar-wrapper right" rel="external"><img src="img/speakers/bernard.png" itemprop="image" alt="Bernard De Luna avatar" width="121" height="121" class="talk-picture picture"></a>
+          <article>
+            <hgroup>
+              <h5 class="talk-title">Projetando estilos <strong>CSS</strong> para aplicativos</h5>
+              <h6 class="talk-speaker">Bernard De Luna</h6>
+            </hgroup>
+            <p class="talk-text">Integre os princípios de um bom projeto web com as boas práticas de implementação Front-end. O workshop mostrará dicas para criar um html/css organizado, documentado e modularizado para criar aplicações e sites de excelência.</p>
+            <ol>
+              <li>Introdução</li>
+              <li>Importância da Modularização</li>
+              <li>Documentação de um projeto</li>
+              <li>Criando um projeto organizado e modularizado</li>
+              <li>Criação dos standards</li>
+              <li>Zen app</li>
+              <li>Modularizado e Responsivo</li>
+              <li>Exercícios</li>
+            </ol>
+            <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" title="Inscreva-se no workshop Projetando CSS para aplicativos com Bernard De Luna" class="btn btn-success" rel="external">&larr; Eu quero CSS</a>
+          </article>
+        </li>
+        <li id="suissa-workshop" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+          <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" class="avatar-wrapper" rel="external"><img src="img/speakers/suissa.jpg" itemprop="image" alt="Suissa avatar" width="121" height="121" class="talk-picture picture"></a>
+          <article>
+            <hgroup>
+              <h5 class="talk-title">Desenvolvendo aplicativos com <a href="http://angularjs.org" rel="external"><strong>AngularJS</strong></a></h5>
+              <h6 class="talk-speaker">Jean Nascimento, aka Suissa</h6>
+            </hgroup>
+            <p class="talk-text">Aprenda AngulaJS, um framework javascript criado pelo Google que da muita agilidde no desenvolvimento front-end. O workshop ensinará os princípios do framework, sua estrutura e o workflow de desenvolvimento de um aplicativo inteiro, nada de todo list.</p>
+            <ol>
+              <li>Introdução</li>
+              <li>Templates</li>
+              <li>Data Bindings</li>
+              <li>Ajax</li>
+              <li>Injeção de Dependência</li>
+              <li>Rotas</li>
+              <li>Eventos</li>
+              <li>Serviços</li>
+              <li>Projeto final</li>
+            </ol>
+            <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" title="Inscreva-se no workshop Desenvolvendo aplicativos com AngularJS com Suissa" class="btn btn-success" rel="external">Eu quero AngularJS &rarr;</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+<% end %>

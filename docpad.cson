@@ -1,0 +1,202 @@
+{
+  templateData:
+
+    # Conference info
+    conf:
+      name: "Front in Maceió 2012"
+      description: "O Front in Maceió 2012 tem foco em desenvolvimento Front-end e o evento acontecerá em Maceió no dia 27 de Outubro no auditório principal do CESMAC"
+      date: "27 de out"
+      studentprice: "R$ 50,00"
+      professionalprice: "R$ 65,00"
+      address: "Rua Cônego Machado, S/N, Farol"
+      venue: "CESMAC - Centro de Estudos Superiores de Maceió"
+      city: "Maceió"
+      state: "AL"
+
+    # Site info
+    site:
+      url: "http://frontinmaceio.com.br"
+      favicon: "http://frontinmaceio.com.br/favicon.ico"
+      googleanalytics: "UA-34840693-1"
+      images:
+        cover: "http://frontinmaceio.com.br/img/bg.jpg"
+        facebook: "http://frontinmaceio.com.br/img/fb.png"
+
+    # Active sections on the website
+    sections:
+      location: true
+      speakers: true
+      lightning: true
+      schedule: true
+      workshops: true
+      partners: true
+
+    # The entire schedule
+    schedule: [
+      name: "Credenciamento"
+      time: "8h00"
+    ,
+      name: "Abertura"
+      time: "9h00"
+    ,
+      name: "Dennis Calazans"
+      alias: "dennis"
+      photo: "http://frontinmaceio.com.br/img/speakers/dennis.png"
+      bio: "Professor na Unibratec e Marista e Mestre pela UFPE"
+      company: "Unibratec/Marista"
+      presentation:
+        title: "Uma sugestão baseada em simplicidade para o padrão Singleton para JS"
+        description: "Baseando-se nos conceitos de simplicidade, o SSP torna fácil a aplicação do JS em um projeto até por aqueles que estão começando. Essa técnica, sugerida por diversos autores, recebeu uma pitada de praticidade e pode tornar seu código mais manutenível e de fácil adoção por novos integrantes na equipe."
+        time: "9h15"
+    ,
+      name: "Ícaro Medeiros"
+      alias: "icaro"
+      photo: "http://frontinmaceio.com.br/img/speakers/icaro.png"
+      bio: "Engenheiro de Software Senior na Globo.com"
+      company: "Globo.com"
+      presentation:
+        title: "Schema.org: HTML semântico"
+        description: "Iniciativa de empresas como Google, Microsoft e Yahoo, o schema.org tem um conjunto de vocabulários para embutir semântica no HTML e traz várias vantagens como melhoria de SEO, rich snippets, entre outros. Aprenda como usar o formato e explorar essas vantagens."
+        time: "10h00"
+    ,
+      name: "Almir Filho e Caio Gondim"
+      alias: "loop"
+      photo: "http://frontinmaceio.com.br/img/speakers/loopinfinito/l8p.png"
+      bio: "Criadores do Loop Infinito"
+      company: "Loop Infinito"
+      presentation:
+        title: "HTML5 Sensitivo – Seu browser no plano astral"
+        description: "O navegador está cada vez mais sensível ao seus arredores. Explorando todos os novos sensores disponíveis no HTML5 – acelerômetro, geolocalização, câmera e microfone – vamos acessar todas as API's do aqui e do além."
+        time: "10h45"
+    ,
+      name: "Giovanni Keppelen"
+      alias: "giovanni"
+      photo: "http://frontinmaceio.com.br/img/speakers/giovanni.png"
+      bio: "Engenheiro de Frontend no Peixe Urbano"
+      company: "Peixe Urbano"
+      presentation:
+        title: "Performance Front-end com resultados"
+        description: "Por uma web mais rápida, mostrarei a importância da performance em uma aplicação web. E ainda, como isso pode retornar um grande valor para você (profissional) e sua empresa. Com grandes dicas que bem usadas serão de grande valor."
+        time: "11h30"
+    ,
+      name: "Almoço (não custeado pelo evento)"
+      time: "12h15"
+    ,
+      name: "Nicholas Fazio"
+      alias: "fazio"
+      photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/nicholas.jpg"
+      bio: "Ilhasoft"
+      company: "Ilhasoft"
+      lightning:
+        title: "Desenvolvimento HTML5 Mobile com Sencha Touch"
+        description: "A empresa Sencha pensou em como poderia usar o know-how já existente da web e as novas tecnologias, como o HTML5 – que a maioria dos desenvolvedores já sabiam ou iriam aprender – na plataforma mobile, evitando que esses tenham que aprender diversas linguagens e enfrentar outros problemas, assim, surgiu o Sencha Touch."
+        time: "13h00"
+    ,
+      name: "Ramon Victor"
+      alias: "ramon"
+      photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/ramon.jpg"
+      bio: "Designer de Interação na TangerinaLab"
+      company: "TangerinaLab"
+      lightning:
+        title: "Pré-processadores CSS: porque são bons e onde devemos tomar cuidado"
+        description: "Por que surgiram os pré-processadores CSS? Como eles podem ser úteis? E por que ter conhecimento da boa e antiga forma de se escrever CSS é necessário para não fazer feio."
+        time: "13h20"
+    ,
+      name: "Luiz Tiago"
+      alias: "luiz"
+      photo: "http://frontinmaceio.com.br/img/speakers/lightning-talks/luiz.jpg"
+      bio: "Gerente de Frontend na MGR Tecnologia"
+      company: "MGR Tecnologia"
+      lightning:
+        title: "Zepto.JS - Fazendo mais com menos"
+        description: "A árdua tarefa de escolher qual biblioteca utilizar nos projetos fica cada vez mais difícil. Zepto é uma biblioteca minimalista desenvolvida para browsers modernos, tão simples de ser usada quanto o jQuery. E bem mais leve!"
+        time: "13h40"
+    ,
+      name: "Jean Nascimento aka Suissa"
+      alias: "jean"
+      photo: "http://frontinmaceio.com.br/img/speakers/suissa.jpg"
+      bio: "Líder Técnico na Nodeware"
+      company: "Nodeware"
+      presentation:
+        title: "Javascript Moderno"
+        description: "O Javascript é a única linguagem largamente utilizada na programação front-end e com o advento do HTML5 ele se tornou soberano na Internet. Está evoluindo a passos largos e possui uma grande comunidade, porém o Javascript realmente ganhou mais força na comunidade de desenvolvimento com o lançamento do Node.js, o qual proporcionou um ambiente de desenvolvimento de Javascript no lado do servidor. Sim! Você já pode escrever Javascript no seu servidor e isso veio para mudar toda a forma como pensamos em Javascript. Conheça seus novos superpoderes."
+        time: "14h00"
+    ,
+      name: "Bernard De Luna"
+      alias: "bernard"
+      photo: "http://frontinmaceio.com.br/img/speakers/bernard.png"
+      bio: "UX e Diretor Criativo da Melt DSP"
+      company: "Melt DSP"
+      presentation:
+        title: "Quero ser um ninja em xHTML, HTML5 e CSS3"
+        description: "Já sabe codificar? Quer chegar a um nível destacado no mercado? Práticas avançadas de documentação, velocidade de codificação, modularização. Tudo isso recheado a muitas dicas de corte de layouts e inovações em CSS3."
+        time: "14h45"
+    ,
+      name: "Networking"
+      time: "15h40"
+    ,
+      name: "Zeno Rocha"
+      alias: "zeno"
+      photo: "http://frontinmaceio.com.br/img/speakers/zeno.jpg"
+      bio: "Front-end Engineer na Liferay, Inc."
+      company: "Liferay, Inc."
+      presentation:
+        title: "O que eu aprendi em 3 anos de carreira como Front-end"
+        description: "Erros, acertos e aprendizados em uma carreira curta, porém bem agitada, como desenvolvedor front-end."
+        time: "16h00"
+    ,
+      name: "Mesa Redonda (7Masters)"
+      time: "17h00"
+    ,
+      name: "Sorteios + Agradecimentos = Encerramento"
+      time: "18h00"
+    ]
+
+    # List of Partners
+    partners: [
+        name: "Opera"
+        logo: "http://frontinmaceio.com.br/img/supporters/opera.jpg"
+        url: "http://www.opera.com"
+      ,
+        name: "iMasters"
+        logo: "http://frontinmaceio.com.br/img/supporters/imasters.jpg"
+        url: "http://www.imasters.com.br"
+      ,
+        name: "Eventick"
+        logo: "http://frontinmaceio.com.br/img/supporters/eventick.jpg"
+        url: "http://www.eventick.com.br"
+      ,
+        name: "CESMAC"
+        logo: "http://frontinmaceio.com.br/img/supporters/cesmac.jpg"
+        url: "http://www.fejal.com.br"
+      ,
+        name: "Caravana Web"
+        logo: "http://frontinmaceio.com.br/img/supporters/caravanaweb.jpg"
+        url: "http://www.caravanaweb.com.br"
+      ,
+        name: "Freaks"
+        logo: "http://frontinmaceio.com.br/img/supporters/freaks.jpg"
+        url: "https://www.facebook.com/usefreaks"
+      ,
+        name: "Peixe Urbano"
+        logo: "http://frontinmaceio.com.br/img/supporters/peixeurbano.jpg"
+        url: "http://www.peixeurbano.com.br"
+      ,
+        name: "Casa do Código"
+        logo: "http://frontinmaceio.com.br/img/supporters/casadocodigo.jpg"
+        url: "http://www.casadocodigo.com.br"
+      ,
+        name: "VGWeb"
+        logo: "http://frontinmaceio.com.br/img/supporters/vgweb.jpg"
+        url: "http://www.vgweb.com.br"
+      ,
+        name: "Novatec"
+        logo: "http://frontinmaceio.com.br/img/supporters/novatec.jpg"
+        url: "http://www.novatec.com.br"
+      ,
+        name: "Liferay"
+        logo: "http://frontinmaceio.com.br/img/supporters/liferay.jpg"
+        url: "http://liferay.com"
+    ]
+
+}

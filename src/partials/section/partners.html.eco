@@ -1,0 +1,18 @@
+<% if @sections.partners == true: %>
+
+  <section id="supporters">
+    <h4>Apoio</h4>
+    <ul class="supporters">
+
+    <% for partner in @partners: %>
+      <li>
+        <a href="<%= partner.url %>" rel="external">
+          <img src="<%= partner.logo %>" alt="<%= partner.name %> logo">
+        </a>
+      </li>
+    <% end %>
+
+    </ul>
+  </section>
+
+<% end %>

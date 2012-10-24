@@ -1,0 +1,25 @@
+<% if @sections.speakers == true: %>
+
+  <section class="container talks">
+    <h4 class="title">Palestras</h4>
+    <ul class="talks-list">
+
+    <% for speaker in @schedule: %>
+      <% if speaker.presentation: %>
+
+        <li class="talks-item" id="<%= speaker.alias %>-keynote" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+          <a href="#<%= speaker.alias %>-keynote" class="avatar-wrapper"><img src="<%= speaker.photo %>" itemprop="image" alt="Avatar do <%= speaker.name %>" width="121" height="121" class="talk-picture picture"></a>
+          <article class="talk-description">
+          <h5 class="talk-title"><%= speaker.presentation.title %></h5>
+          <h6 class="talk-speaker"><%= speaker.name %> (<%= speaker.bio %>)</h6>
+          <p class="talk-text"><%= speaker.presentation.description %></p>
+          </article>
+        </li>
+
+      <% end %>
+    <% end %>
+
+    </ul>
+  </section>
+
+<% end %>
