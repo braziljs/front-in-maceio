@@ -462,6 +462,9 @@ hgroup {
           right: 0;
           text-align: right;
         }
+        ol {
+          direction: ltr;
+        }
       }
     }
     p.talk-text {
@@ -471,11 +474,12 @@ hgroup {
     }
   }
   ol {
-    list-style: none;
     padding: 0;
+    direction: rtl;
+    list-style-position: inside;
     li {
       font-size: 12px;
-      line-height: 120%
+      line-height: 130%
 
     }
   }
