@@ -8,4 +8,4 @@
 # Commit changes to gh-pages branch: git add . && git commit -m "Regenerate" && git push origin gh-pages
 # Goes back to master branch: git checkout master
 
-npm install . && docpad generate && git checkout -b gh-pages && git rm -rf . && mv out/* . && rm -rf out && rm -rf node_modules && git add . && git commit -m "Regenerate" && git push origin gh-pages && git checkout master
+npm install . && docpad generate && git checkout gh-pages && git rm -rf . && mv out/* . && rm -rf out && rm -rf node_modules && git add . && git commit -m "Regenerate" && git push origin gh-pages && git checkout master
