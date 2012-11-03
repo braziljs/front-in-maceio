@@ -157,47 +157,47 @@
     # List of Partners
     partners: [
         name: "Opera"
-        logo: "http://frontinmaceio.com.br/img/supporters/opera.jpg"
+        logo: "img/supporters/opera.jpg"
         url: "http://www.opera.com"
       ,
         name: "iMasters"
-        logo: "http://frontinmaceio.com.br/img/supporters/imasters.jpg"
+        logo: "img/supporters/imasters.jpg"
         url: "http://www.imasters.com.br"
       ,
         name: "Eventick"
-        logo: "http://frontinmaceio.com.br/img/supporters/eventick.jpg"
+        logo: "img/supporters/eventick.jpg"
         url: "http://www.eventick.com.br"
       ,
         name: "CESMAC"
-        logo: "http://frontinmaceio.com.br/img/supporters/cesmac.jpg"
+        logo: "img/supporters/cesmac.jpg"
         url: "http://www.fejal.com.br"
       ,
         name: "Caravana Web"
-        logo: "http://frontinmaceio.com.br/img/supporters/caravanaweb.jpg"
+        logo: "img/supporters/caravanaweb.jpg"
         url: "http://www.caravanaweb.com.br"
       ,
         name: "Freaks"
-        logo: "http://frontinmaceio.com.br/img/supporters/freaks.jpg"
+        logo: "img/supporters/freaks.jpg"
         url: "https://www.facebook.com/usefreaks"
       ,
         name: "Peixe Urbano"
-        logo: "http://frontinmaceio.com.br/img/supporters/peixeurbano.jpg"
+        logo: "img/supporters/peixeurbano.jpg"
         url: "http://www.peixeurbano.com.br"
       ,
         name: "Casa do Código"
-        logo: "http://frontinmaceio.com.br/img/supporters/casadocodigo.jpg"
+        logo: "img/supporters/casadocodigo.jpg"
         url: "http://www.casadocodigo.com.br"
       ,
         name: "VGWeb"
-        logo: "http://frontinmaceio.com.br/img/supporters/vgweb.jpg"
+        logo: "img/supporters/vgweb.jpg"
         url: "http://www.vgweb.com.br"
       ,
         name: "Novatec"
-        logo: "http://frontinmaceio.com.br/img/supporters/novatec.jpg"
+        logo: "img/supporters/novatec.jpg"
         url: "http://www.novatec.com.br"
       ,
         name: "Liferay"
-        logo: "http://frontinmaceio.com.br/img/supporters/liferay.jpg"
+        logo: "img/supporters/liferay.jpg"
         url: "http://liferay.com"
     ]
 

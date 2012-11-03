@@ -86,23 +86,6 @@
     </ul>
   </section>
 
-  <section id="enrollment">
-    <ul class="price-range">
-        <li>
-            <strong><%= @conf.studentprice %></strong> estudante
-        </li>
-        <li>
-            <strong><%= @conf.professionalprice %></strong> profissionais
-        </li>
-    </ul>
-
-    <a href="http://eventick.com.br/front-in-maceio" rel="external" class="btn btn-success" itemprop="offers">
-      <strong>Inscreva-se agora!</strong>
-      <span>*inscrição via Eventick</span>
-    </a>
-
-  </section>
-
   <section class="highlight-text">
     <p>Seguindo o sucesso de outros eventos, o <span itemprop="name">Front in Maceió</span> <br /> será <span itemprop="description">o <strong>primeiro evento</strong> focado em desenvolvimento frontend<br/> no nordeste do Brasil.</span></p>
   </section>
