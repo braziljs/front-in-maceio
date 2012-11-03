@@ -2,7 +2,7 @@
 
   <div id="workshops">
     <section class="highlight-text workshop-teaser">
-      <p>Traremos também para o <span itemprop="name">Front in Maceió</span> 2012 <br> <strong>Workshops focados em front-end</strong><br> que elevarão seus conhecimentos, escolha o seu.</p>
+      <p>Trouxemos também para o <span itemprop="name">Front in Maceió</span> 2012 <br> <strong>Workshops focados em front-end</strong><br> que elevaram os conhecimentos dos participantes.</p>
     </section>
     <section class="workshops container talks">
       <ul class="workshops-list">
@@ -24,7 +24,6 @@
               <li>Modularizado e Responsivo</li>
               <li>Exercícios</li>
             </ol>
-            <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" title="Inscreva-se no workshop Projetando CSS para aplicativos com Bernard De Luna" class="btn btn-success" rel="external">&larr; Eu quero CSS</a>
           </article>
         </li>
         <li id="suissa-workshop" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -46,7 +45,6 @@
               <li>Serviços</li>
               <li>Projeto final</li>
             </ol>
-            <a href="http://eventick.com.br/frontinmaceio-workshops/#tickets_table" title="Inscreva-se no workshop Desenvolvendo aplicativos com AngularJS com Suissa" class="btn btn-success" rel="external">Eu quero AngularJS &rarr;</a>
           </article>
         </li>
       </ul>
