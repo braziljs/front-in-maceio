@@ -17,7 +17,11 @@
               <td><%= slot.name %> <span>(<%= slot.lightning.title %>)</span></td>
             </tr>
           <% else: %>
-            <tr class="checkpoint">
+            <% if slot.white: %>
+              <tr>
+            <% else: %>
+              <tr class="checkpoint">
+            <% end %>
               <td><%= slot.time %></td>
               <td><%= slot.name %></td>
             </tr>

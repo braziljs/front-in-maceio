@@ -38,6 +38,7 @@
     ,
       name: "Abertura"
       time: "9h00"
+      white: true
     ,
       name: "Dennis Calazans"
       alias: "dennis"
@@ -147,6 +148,7 @@
     ,
       name: "Mesa Redonda (7Masters)"
       time: "17h00"
+      white: true
     ,
       name: "Sorteios + Agradecimentos = Encerramento"
       time: "18h00"
