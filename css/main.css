@@ -479,7 +479,6 @@ hgroup h2 strong {
 }
 .highlight-text {
   background-color: #3f4f69;
-  margin: -32px 0 0;
 }
 .highlight-text.workshop-teaser {
   margin: 0;
@@ -556,6 +555,9 @@ hgroup h2 strong {
 .talks .talk-description {
   float: left;
   width: 520px;
+}
+.talks.workshops {
+  margin-bottom: 0;
 }
 .talks-item.right .avatar-wrapper {
   float: right;
@@ -678,7 +680,7 @@ hgroup h2 strong {
   overflow: hidden;
   padding-bottom: 60px;
   padding-top: 100px;
-  margin: 60px 0 0;
+  margin: 0;
   background: #3f4f69;
 }
 #footer h4 {
