@@ -306,6 +306,15 @@ hgroup h2 strong {
   color: #FFF;
   font-size: 34px;
 }
+hgroup .url-certificado {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+hgroup .url-certificado:hover {
+  color: #f7f5cf;
+}
 .social-media {
   position: absolute;
   top: 60px;
