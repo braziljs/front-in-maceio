@@ -273,29 +273,15 @@ ul {
   padding: 0;
   list-style: none;
 }
-iframe {
-  border: 1px solid #3f4f69;
-}
 section strong {
   color: #ffba00;
 }
 .logo {
-  position: absolute;
-  top: 55px;
-  left: 50%;
-  margin-left: -140px;
+  float: left;
+  margin: 38px 0 0 58px;
 }
 #wrapper > header {
   height: 322px;
-}
-#wrapper > header .btn-lg {
-  position: absolute;
-  left: 50%;
-  margin-left: -115px;
-  top: 225px;
-}
-#wrapper > header .btn-lg:hover {
-  background-color: rgba(229, 168, 18, .9);
 }
 hgroup h1 {
   margin: 0;
@@ -307,16 +293,18 @@ hgroup h2 {
   right: 0;
   top: 32px;
   float: right;
-  font: bold 20px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: bold 19px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f7f5cf;
+  font-style: italic;
   font-weight: normal;
+  width: 303px;
   margin: 0;
-  padding: 15px 25px;
+  padding: 20px 26px;
 }
 hgroup h2 strong {
   display: block;
   color: #FFF;
-  font-size: 22px;
+  font-size: 34px;
 }
 hgroup .url-certificado {
   display: block;
@@ -329,8 +317,8 @@ hgroup .url-certificado:hover {
 }
 .social-media {
   position: absolute;
-  top: 100px;
-  right: 20px;
+  top: 60px;
+  right: 365px;
 }
 .social-media a {
   background: url("../img/icons/social-media.png") 0 0 no-repeat;
@@ -364,22 +352,11 @@ hgroup .url-certificado:hover {
 }
 #speakers {
   overflow: hidden;
-  position: relative;
-  margin-bottom: 40px;
-}
-#speakers .title {
-  margin: 70px 0 40px;
-  padding: 0 0 0 20px;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  letter-spacing: -0.094em;
-  color: #3f4f69;
-  text-transform: lowercase;
-  background: url(../img/generic-title-icon.png) no-repeat 0 0;
+  margin-top: -70px;
 }
 #speakers li {
-  margin: 0 40px 40px 2px;
+  width: 21%;
+  margin: 0 1.98% 40px;
   min-height: 195px;
   float: left;
   text-align: center;
@@ -433,16 +410,6 @@ hgroup .url-certificado:hover {
 #speakers .undefined h3 {
   color: #b0b7c2;
 }
-
-.special-guest {
-  position:absolute;
-  right: 0;
-  top: 0;
-}
-.special-guest a {
-  text-decoration: none;
-}
-
 .popover {
   border-radius: 0;
   -webkit-border-radius: 0;
@@ -720,6 +687,7 @@ hgroup .url-certificado:hover {
 }
 #footer {
   overflow: hidden;
+  padding-bottom: 60px;
   padding-top: 100px;
   margin: 0;
   background: #3f4f69;
@@ -750,13 +718,6 @@ hgroup .url-certificado:hover {
 #footer #organization {
   float: right;
 }
-#organization ul {
-  float: right;
-}
-#organization ul li {
-  margin-right:0;
-  float: none;
-}
 .opera {
   margin: 4px 0 0;
 }
@@ -764,25 +725,14 @@ hgroup .url-certificado:hover {
   margin: 11px 0 0;
 }
 #supporters {
-  width: 100%;
-  float: none !important;
-}
-#supporters ul {
-  overflow: hidden;
+  width: 782px;
+  float: left;
 }
 #supporters li:last-child {
   margin-right: 0;
 }
-#supporters img {
-  opacity: .5;
-}
-
 #sponsors {
-  float: none !important;
   clear: both;
-}
-#sponsors ul {
-  overflow: hidden;
 }
 .responsible {
   margin-right: 20px;
@@ -878,30 +828,6 @@ hgroup .url-certificado:hover {
   font-size: 14px;
   letter-spacing: -1px;
 }
-
-.think-outside-of-the-box {
-  background: url(../img/steve-jobs.jpg) no-repeat top right;
-  text-align: right;
-  padding: 20px 140px 0 0;
-  background-size: 112px;
-  float: right !important;
-  clear: both;
-  width: 320px;
-  height: 215px;
-}
-.think-outside-of-the-box blockquote {
-  margin: 0;
-  color: #FFF;
-  line-height: 132%;
-}
-.think-outside-of-the-box blockquote strong{
-  color: #FFF;
-}
-.think-outside-of-the-box blockquote cite {
-  display: block;
-  padding-top: 10px;
-}
-
 .ir {
   background-color: transparent;
   border: 0;

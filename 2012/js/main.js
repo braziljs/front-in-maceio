@@ -1,8 +1,8 @@
 jQuery(function($){
-    $('header .btn').click(function(event){
+    $('#speakers a, .talks-list a').click(function(event){
         var objThis = this;
         event.preventDefault();
-        var top = parseInt($('header .btn[href="' + $(objThis).attr('href') + '"]').parent().position().top);
+        var top = parseInt($('.talks-list a[href="' + $(objThis).attr('href') + '"]').parent().position().top);
         $('body,html').animate({
             scrollTop: top
         }, 800, function(){
@@ -14,12 +14,15 @@ jQuery(function($){
         window.open( $(this).attr('href'));
         return false;
     });
-    
+    $("#speakers ul li:not(.fixed)").shuffle();
+
+    $(".talks-list li:odd").addClass("right");
+
 });
 
 function initialize() {
         var icon = 'img/icons/map/marker.png',
-            latlng = new google.maps.LatLng(-9.66934,-35.72293); //Longitude e Latitude do local http://universimmedia.pagesperso-orange.fr/geo/loc.htm
+            latlng = new google.maps.LatLng(-9.65573,-35.73758); //Longitude e Latitude do local http://universimmedia.pagesperso-orange.fr/geo/loc.htm
         var options = {
           zoom: 16,
           center: latlng,
