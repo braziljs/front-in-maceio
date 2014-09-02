@@ -367,6 +367,10 @@ hgroup .url-certificado:hover {
   position: relative;
   margin-bottom: 40px;
 }
+#speakers > ul {
+  overflow: hidden;
+  margin-right: 320px;
+}
 #speakers .title {
   margin: 70px 0 40px;
   padding: 0 0 0 20px;
@@ -379,7 +383,7 @@ hgroup .url-certificado:hover {
   background: url(../img/generic-title-icon.png) no-repeat 0 0;
 }
 #speakers li {
-  margin: 0 40px 40px 2px;
+  margin: 0 40px 20px 2px;
   min-height: 195px;
   float: left;
   text-align: center;
