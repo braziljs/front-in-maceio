@@ -883,13 +883,20 @@ hgroup .url-certificado:hover {
   letter-spacing: -1px;
 }
 
+#footer .webbr2014-partner {
+  clear: left;
+}
+#footer .webbr2014-partner h4 {
+  margin-bottom: 16px;
+}
+
 .think-outside-of-the-box {
   background: url(../img/steve-jobs.jpg) no-repeat top right;
   text-align: right;
   padding: 20px 140px 0 0;
   background-size: 112px;
   float: right !important;
-  clear: both;
+  clear: right;
   width: 320px;
   height: 215px;
 }
