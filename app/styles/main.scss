@@ -353,22 +353,17 @@ section {
     -moz-box-align: center;
     box-align: center;
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
+    display: flex;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
     box-pack: justify;
 
     margin-bottom: 70px;
     .column {
-        -webkit-box-flex: 3;
-        -moz-box-flex: 3;
-        box-flex: 3; 
+        flex: 3;
         &.track-time {
-            -webkit-box-flex: 1;
-            -moz-box-flex:  1;
-            box-flex: 1; 
+            flex: 1;
+             align-self: center;
         }
     }
 }
