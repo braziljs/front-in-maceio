@@ -1,0 +1,508 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'compass';
+
+@font-face {
+    font-family: 'sugar_pieregular';
+    src: url('../fonts/sugar_pie-webfont.eot');
+    src: url('../fonts/sugar_pie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sugar_pie-webfont.woff2') format('woff2'),
+         url('../fonts/sugar_pie-webfont.woff') format('woff'),
+         url('../fonts/sugar_pie-webfont.ttf') format('truetype'),
+         url('../fonts/sugar_pie-webfont.svg#sugar_pieregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'sugar_pieregular';
+}
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #FFF;
+    font-family: 'sugar_pieregular';
+    letter-spacing: -2px;
+    margin: 0;
+    text-transform: uppercase;
+    @include text-shadow(0 6px 5px rgba(7,8,8,.42));
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 4px #2f1203;
+}
+h2 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 48px;
+}
+h4 {
+    font-size: 36px;
+}
+h5, h6 {
+    font-size: 18px;
+    letter-spacing: normal;
+}
+h6 {
+    color: #df4c2e;
+    font-family: 'sugar_pieregular';
+    margin: 0;
+    text-transform: uppercase;
+}
+p {
+    color: #2e1203;
+    font:bold 36px 'PT Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: -3px;
+    line-height: 120%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section {
+    position: relative;
+}
+/* Layout structure */
+.fim-cover {
+    background: url(../images/cover.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 15%;
+    text-align: center;
+    width: 100%;
+}
+
+.has-transparent-background {
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,.8);
+    position: relative;
+}
+.event-highlight {
+    height: 184px;
+    .logo {
+        left: 50%;
+        margin-left: -134px;
+        position: absolute;
+        top: -55px;
+        z-index: 2;
+    }
+    .subscribe-now {
+        top: 20px;
+    }
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+}
+.fim-info {
+    background: url(../images/fim-info.png) no-repeat;
+    display: inline-block;
+    font: 0/0 a;
+    height: 238px;
+    left: -162px;
+    position: relative;
+    top: -12px;
+    width: 475px;
+}
+.subscribe-now {
+    background: url(../images/subscribe-now.png) no-repeat;
+    display: inline-block;
+    font: 0/0 a;
+    height: 115px;
+    position: relative;
+    width: 328px;
+}
+
+
+/* Sponsorship */
+.sponsor-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    .sponsor-item {
+        display: inline-block;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .sponsor-link {
+        display: inline-block;
+        height: 172px;
+        line-height: 172px;
+        position: relative;
+        width: 172px;
+        &:before {
+            background: url(../images/sponsors/bronze-sponsorship.png) no-repeat;
+            content: '';
+            height: 172px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 172px;
+        }
+    }
+    .sponsor-gold {
+        display: block;
+        margin-right: 0;
+        margin-top: -50px;
+        .sponsor-link {
+            height: 245px;
+            line-height: 245px;
+            width: 245px;
+            &:before {
+                background-image: url(../images/sponsors/gold-sponsorship.png);
+                height: 245px;
+                width: 245px;
+            }
+        }
+    }
+    .sponsor-logo {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* About */
+#about {
+    background:#dc3e21 url(../images/super-heroes.jpg) no-repeat;
+    background-size: cover;
+    height: 1390px;
+    z-index: 2;
+}
+.about-comics-edition {
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    .has-transparent-background {
+        background-color: rgba(255,255,255,.22);
+        height: 115px;
+        margin-bottom: 65px;
+    }
+    .logo {
+        margin-top: -33px;
+    }
+    article {
+        padding: 0 20%;
+        * {
+            margin-bottom: 45px;
+        }
+    }
+}
+.super-accommodation {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    .subscribe-now {
+        bottom: -60px;
+        left: 50%;
+        margin-left: -164px;
+        position: absolute;
+    }
+    .flash {
+        position: absolute;
+        bottom: -120px;
+        left: 50%;
+        margin-left: -80px;
+    }
+}
+.alagoas-hostel-callout {
+    background: url(../images/supporters/alagoas-hostel.png);
+    display: inline-block;
+    font: 0/0 a;
+    height: 613px;
+    margin: 0 0 0 -140px;
+    width: 780px;
+}
+
+
+.super-heroes {
+    background: url(../images/schedule.jpg);
+    background-size: cover;
+    min-height: 600px;
+    padding-bottom: 250px;
+    padding-top: 150px;
+    text-align: center;
+    .title {
+        margin-bottom: 20px;
+        -webkit-text-stroke-width: 3px;
+    }
+    p {
+        margin-bottom: 72px;
+    }
+}
+.supporters {
+    padding-top: 65px;
+    .wonder-woman {
+        position: absolute;
+        right: 0;
+        top: -190px;
+    }
+    .supporters-list {
+        .supporter-item {
+            height: 90px;
+            line-height: 90px;
+        }
+    }
+}
+.media-partner {
+    padding-top: 40px;
+    .phantom {
+        float: left;
+        margin:0 30px; 
+    }
+    h3 {
+        margin: 60px 0 40px;
+    }
+    .facebook-plugin {
+        padding-top: 80px;
+        iframe {
+            width: 100%;
+        }
+    }
+}
+.powered-by-section {
+    background:#e3aa12 url(../images/powered-by.jpg);
+    background-size: cover;
+    padding: 100px 0 40px;
+    h4 {
+        margin-bottom: 45px;
+    }
+    .iron-man {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+.powered-by-item {
+    float: left;
+    margin-right: 40px;
+}
+.poweredby-avatar {
+    margin-bottom: 30px;
+}
+.heroes-list {
+    float: left;
+    .hero-item:first-child {
+        margin-right: 28px;
+    }
+}
+.hero-item {
+    float: left;
+    text-align: center;
+    .title {
+        margin: 15px 0 30px;
+        -webkit-text-stroke: 2px black;
+    }
+    .title-curator {
+        color: #df4c2e;
+        -webkit-text-fill-color: #df4c2e;
+    }
+}
+.hero-info {
+    .hero-name {
+        margin-bottom: 8px;
+    }
+    .hero-link {
+        margin: 0 5px;
+    }
+}
+.hero-avatar-frame {
+    margin-bottom: 10px;
+    position: relative;
+    &.hero-avatar-frame--medium {
+        &:after {
+            height: 102px;
+            width: 102px;
+        }
+        .hero-avatar {
+            height: 98px;
+            width: 98px;
+        }
+    }
+    &:after {
+        background: url(../images/heroes/avatar-frame.png) no-repeat;
+        background-size: 100%;
+        content: '';
+        height: 136px;
+        left: -2px;
+        position: absolute;
+        top: -2px;
+        width: 134px;
+    }
+    .hero-avatar {
+        height: 132px;
+        position: relative;
+        top: 1px;
+        width: 132px;
+        @include border-radius(50%);
+    }
+}
+
+.timeline-item {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+
+    margin-bottom: 70px;
+    .column {
+        flex: 3;
+        &.track-time {
+            flex: 1;
+             align-self: center;
+        }
+    }
+}
+
+.timeline-item {
+    &.timeline-header {
+        margin-bottom: 40px;
+        .title {
+            font-size: 48px;
+            span {
+                display: block;
+            }
+        }
+    }
+    .super-presentation-title {
+        line-height: 135%;
+    }
+    .track-learn {
+        text-align: right;
+        &.track-speaker-item {
+            padding-left: 10%;
+        }
+        .title span,
+        .super-presentation-title {
+            color: #9beb1c;
+            -webkit-text-fill-color: #9beb1c;
+        }
+        .hero-avatar-frame {
+            float: right;
+            margin: 0 0 0 10px;
+        }
+    }
+    .track-code {
+        text-align: left;
+        &.track-speaker-item {
+            padding-right: 10%;
+        }
+        .title span,
+        .super-presentation-title {
+            color: #6fa4ec;
+            -webkit-text-fill-color: #6fa4ec;
+        }
+        .hero-avatar-frame {
+            float: left;
+            margin: 0 10px 0 0;
+        }
+    }
+    .super-presentation-title {
+        font-size: 18px;
+        letter-spacing: 0;
+        -webkit-text-stroke-width: 2px;
+    }
+    .track-time {
+        &.track-time--hour {
+            time {
+                background: url(../images/icons/track-time.png) no-repeat;
+                height: 42px;
+                width: 115px;
+            }
+        }
+        .hour {
+            color: #FFF;
+            display: inline-block;
+            font-family: 'sugar_pieregular', sans-serif;
+            font-size: 20px;
+            line-height: 45px;
+            text-align: center;
+            -webkit-text-fill-color: #FFF;
+            -webkit-text-stroke: 2px #000;
+        }
+        span.hour {
+            font-size: 26px;
+        }
+    }
+}
+.timeline-warning {
+    color: #FFF;
+    font-size: 18px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #2f1203;
+    @include text-shadow(0 3px 2px rgba(7,8,8,.42));
+}
+
+.track-speaker-item {
+    h3 {
+        font-size: 28px;
+        letter-spacing: 0;
+        margin: 8px 0 4px;
+        -webkit-text-stroke-width: 2px;
+    }
+}
+
+.to-be-continued {
+    position: relative;
+    text-align: center;
+    padding: 20px 20px 18px;
+    p {
+        font-size: 14px;
+        letter-spacing: -1px;
+        margin: 0;
+    }
+    strong {
+        color: #df492b;
+    }
+    &>strong {
+        position: absolute;
+        right: 10%;
+        top: 20px;
+    }
+}
+.heroes {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    &.flash {
+        background: url(../images/heroes/flash.png);
+        height: 785px;
+        width: 482px;
+    }
+    &.wonder-woman {
+        background: url(../images/heroes/wonder-woman.png);
+        height: 912px;
+        width: 630px;
+    }
+    &.iron-man {
+        background: url(../images/heroes/iron-man.png);
+        height: 470px;
+        width: 752px;   
+    }
+    &.phantom {
+        background: url(../images/heroes/phantom.png);
+        height: 378px;
+        width: 275px;   
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }    
+}
