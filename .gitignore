@@ -1,1 +1,3 @@
-dandelion.yml
+.sass-cache
+.tmp
+dist
