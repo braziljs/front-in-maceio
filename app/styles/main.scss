@@ -73,7 +73,8 @@ section {
     background: url(../images/cover.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     padding-top: 15%;
     text-align: center;
     width: 100%;
