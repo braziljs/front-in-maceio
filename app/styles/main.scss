@@ -80,8 +80,6 @@ section {
 }
 
 .has-transparent-background {
-    background-color: rgb(255,255,255);
-    background-color: rgba(255,255,255,.8);
     position: relative;
 }
 .event-highlight {
@@ -151,7 +149,6 @@ section {
         }
     }
     .sponsor-gold {
-        display: block;
         margin-right: 0;
         margin-top: -50px;
         .sponsor-link {
