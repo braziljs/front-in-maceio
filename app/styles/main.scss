@@ -73,7 +73,9 @@ section {
     background: url(../images/cover.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 50px;
     padding-top: 15%;
     text-align: center;
     width: 100%;
@@ -502,4 +504,87 @@ section {
     .container {
         max-width: 730px;
     }    
+}
+
+@media (max-width:768px) {
+
+    html, body {width:100%; overflow-x:hidden}
+
+    h2 {font-size:36px}
+
+    p {font-size:1.8em}
+
+
+    header {}
+
+
+        .event-highlight {height:auto; margin-top:200px}
+            .event-highlight .logo {position:relative; left:auto; margin:0 auto; top:30px}
+            .fim-info {left:auto; width:100%; background-size:contain; background-position-x:center; background-position-y:center}
+            .event-highlight .subscribe-now {top:0}
+
+
+        .sponsor-list .sponsor-item {margin: 0}
+            .sponsor-list .sponsor-link {width:130px; height:130px; line-height:130px}
+            .sponsor-list .sponsor-link:before {background-size:contain; width:130px; height:130px}
+            .sponsor-list .sponsor-logo {max-width:60%}
+
+            .sponsor-list .sponsor-gold .sponsor-link {width:200px;height:200px;line-height:200px}
+            .sponsor-list .sponsor-gold .sponsor-link:before {background-size:contain;width:200px;height:200px}
+
+
+    #about {height:auto; padding-bottom:400px}
+        .super-accommodation {bottom:50px}
+        .alagoas-hostel-callout {background-size:contain;width:400px;background-repeat:no-repeat;height:300px;margin:0 0 50px -20px;}
+        .heroes.flash {background-size:contain; width:300px; background-repeat:no-repeat; height:400px}
+
+
+    #schedule {}
+        .timeline-heroes .timeline-item {display:block;margin:100px 0}
+
+        .timeline-item.timeline-header {display:flex}
+        .timeline-item.timeline-header .title {font-size:30px}
+        .timeline-item.timeline-header .track-learn {text-align:right}
+
+
+        .timeline-item .column {padding:0 10px}
+
+        .timeline-item .track-learn {text-align:left}
+        .timeline-item .track-learn.track-speaker-item {padding:0 5%}
+        .timeline-item .track-learn .hero-avatar-frame {float:none}
+
+        .timeline-item .column.track-time {text-align:right}
+
+        .timeline-item .track-code {}
+        .timeline-item .track-code.track-speaker-item {padding:0 5%}
+        .timeline-item .track-code .hero-avatar-frame {float:none}
+
+        .timeline-item .track-code .hero-avatar-frame,
+        .timeline-item .track-learn .hero-avatar-frame {float:left;margin:0 10px 0 0;}
+
+
+        /*Clearfix*/
+        .timeline-item .track-code.track-speaker-item:before,
+        .timeline-item .track-code.track-speaker-item:after {content:""; display:table}
+        .timeline-item .track-code.track-speaker-item:after{clear:both}
+        .timeline-item .track-code.track-speaker-item{*zoom:1}
+
+    #supporters {}
+        .col-xs-6.col-xs-offset-1 {width:100%;margin:0}
+        .heroes.wonder-woman {display:none}
+        .supporter-item img {max-width:100%; height:auto}
+
+        .heroes.phantom { background-size:contain; width:100px; background-repeat:no-repeat; height:160px}
+        .media-partner h3 {font-size:30px}
+
+    #powered-by {}
+        .heroes.iron-man { background-repeat:no-repeat; background-size:contain; width:170px; height:100px;}
+        .to-be-continued strong { position:relative; top:auto; right:auto}
+
+        .col-xs-11.col-xs-offset-1 {margin:0; width:100%}
+        .powered-by-item {width:100%}
+        .heroes-list {width:100%;margin-bottom:100px;}
+        .heroes-list .hero-item {width:45%}
+        .heroes-list .hero-item:first-child {margin-right:10%}
+
 }
